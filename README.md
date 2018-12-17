@@ -1,6 +1,8 @@
 # HttpUtil
 &emsp;Java 网络请求工具类，支持异步请求，支持传递 header ，支持表单和 json 类型的参数提交。
 
+> 包含两个工具类，一个`HttpUtil`一个`HttpBaseUtil`，一个依赖Spring，一个不依赖任何框架。
+
 ## HttpUtil
 &emsp;&emsp;依赖于`Spring`框架，如果你的项目基于`Spring`或者`SpringBoot`，推荐使用此工具类。
 
@@ -28,7 +30,7 @@ public class Test{
 }
 ```
 
-[查看全部使用方法]()
+[查看全部使用方法](https://gitee.com/whvse/HttpUtil/blob/master/HttpUtil.java)
 
 <br>
 
@@ -76,4 +78,4 @@ public class Test{
 }
 ```
  
-[查看全部使用方法]()
+[查看全部使用方法](https://gitee.com/whvse/HttpUtil/blob/master/HttpBaseUtil.java)
